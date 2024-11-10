@@ -1,0 +1,133 @@
+body {
+    background-image: url(UNEFAA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#bot-container {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    width: 300px;
+    max-height: 400px;
+    border: 1px solid #440cdf;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgb(165, 2, 2);
+    background: rgb(5, 135, 175);
+    color: rgb(255, 255, 255);
+}
+
+.letras{
+
+    color: #ebe700;
+    padding: 10px 40px;
+    margin-top: 40px;
+    border: none;
+    font-size: 14px;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    outline: none;
+}
+
+#send-btn{
+    padding: 10px 40px;
+    border: 2px solid #0692f0;
+    background: rgb(1, 217, 233);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(250, 250, 250);
+    outline: none;
+    transition: all 300ms;
+    border-radius: 15px;
+}
+
+.otros {
+    text-align: left;
+    padding: 10px 0;
+    backdrop-filter: blur(3px);
+    color: #ebe700;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+}
+
+.gallery img {
+    width: 200px;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+#text {
+    height: 300px;
+    overflow-y: auto;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+#bot {
+    padding: 10px;
+}
+
+#user-input {
+    width: 75%;
+    padding: 5px;
+}
+
+#send-btn {
+    padding: 6px;
+}
+
+h2 {
+    color: #ebe700;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+#botonsesion{
+    padding: 10px 40px;
+    border: 2px solid #0692f0;
+    background: rgb(236, 0, 0);
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: rgb(247, 240, 240);
+    outline: none;
+    transition: all 300ms;
+    border-radius: 15px;
+    margin-top: 15pc;
+}
+
+#botonsesion:hover {
+    background-color: #218838;
+}
