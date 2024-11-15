@@ -10,8 +10,8 @@ body {
     position: fixed;
     bottom: 0;
     right: 10px;
-    width: 300px;
-    max-height: 400px;
+    width: 400px;
+    max-height: 600px;
     border: 1px solid #440cdf;
     border-radius: 10px;
     box-shadow: 2px 2px 10px rgb(165, 2, 2);
